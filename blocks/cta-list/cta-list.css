@@ -1,0 +1,38 @@
+
+.cta-list-wrapper {
+  background: url('path/to/your/background-image.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.cta-list-wrapper > .cta-list > div {
+  display: flex;
+  flex-direction: row; /* Align items side by side */
+  justify-content: space-between; /* Space between items */
+  gap: 20px; /* Adjust gap as needed to space out the buttons */
+}
+
+.cta-list-wrapper > .cta-list .button-container {
+  flex: 1; /* Ensures each button container takes equal space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; /* Adjust padding to align buttons better */
+  box-sizing: border-box;
+}
+
+.cta-list-wrapper > .cta-list .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px; /* Adjust padding to make buttons shorter */
+  background-color: #800040; /* Replace with your desired background color */
+  color: white;
+  text-decoration: none;
+  border-radius: 0; /* Remove border-radius for sharp corners */
+  white-space: pre-wrap; /* Allow text to wrap into multiple lines */
+  line-height: 1.5; /* Adjust line height for better readability */
+  width: 100%; /* Ensure buttons take full width of container */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  text-align: center; /* Ensure text is centered */
+}

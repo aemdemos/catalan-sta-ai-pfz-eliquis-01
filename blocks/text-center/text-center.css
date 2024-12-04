@@ -1,0 +1,38 @@
+
+.text-center-container > .text-center-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.text-center-wrapper {
+  background: linear-gradient(to bottom, #3a7bd5, #d16ba5); /* Update gradient to match original */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px; /* Adjust padding for better spacing */
+  color: white; /* Ensure text color is white for contrast */
+  height: auto; /* Ensure height is not constrained to viewport */
+}
+
+.text-center-wrapper > .text-center > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-center-wrapper .text-center h1 {
+  font-size: 2.8em; /* Adjust font size for title */
+  font-weight: bold;
+  text-transform: uppercase; /* Ensure title is uppercase */
+  margin-bottom: 20px; /* Adjust margin for better spacing */
+}
+
+.text-center-wrapper .text-center p {
+  font-size: 1.2em; /* Adjust font size for paragraph */
+  font-weight: normal;
+  max-width: 800px; /* Constrain paragraph width for better readability */
+  margin: 0 auto; /* Center paragraph within its container */
+  line-height: 1.6; /* Ensure line height for better readability */
+}
